@@ -11,7 +11,7 @@ let greshunkel = new Greshunkel({
 describe('xXx Variable Interpolation xXx', () => {
     it('should interpolate a single variable', () => {
         return greshunkel.compile('single-variable', {
-            title: 'V O I D',
+            message: 'V O I D',
         }).then((html) => {
             html.should.be.a.String();
 
@@ -21,7 +21,17 @@ describe('xXx Variable Interpolation xXx', () => {
 
     it('should interpolate multiple instances of a single variable', () => {
         return greshunkel.compile('multiple-instances', {
-            title: 'V O I D',
+            message: 'V O I D',
+        }).then((html) => {
+            html.should.be.a.String();
+
+            html.should.equal('V O I D\nV O I D\n');
+        });
+    });
+
+    xit('should allow two variables to be neighbors', () => {
+        return greshunkel.compile('neighbors', {
+            message: 'V O I D',
         }).then((html) => {
             html.should.be.a.String();
 
