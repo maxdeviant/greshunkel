@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/maxdeviant/greshunkel/issues"
   },
-  "homepage": "https://github.com/maxdeviant/greshunkel#readme"
+  "homepage": "https://github.com/maxdeviant/greshunkel#readme",
+  "dependencies": {
+    "lodash": "^4.0.0"
+  }
 }
