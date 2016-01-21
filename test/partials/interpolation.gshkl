@@ -4,6 +4,7 @@
     <title>xXx @title xXx</title>
 </head>
 <body>
-
+    <h1>xXx @title xXx</h1>
+    <p>xXx @content xXx</p>
 </body>
 </html>

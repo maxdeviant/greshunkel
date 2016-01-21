@@ -7,9 +7,8 @@ const greshunkel = new Greshunkel({
 });
 
 greshunkel.compile('interpolation', {
-    locals: {
-        title: 'V O I D'
-    }
+    title: 'V O I D',
+    content: 'AAAAAAAAAAAAAAAAAAAAA'
 }).then((html) => {
     console.log(html);
 }).catch((err) => {
