@@ -3,7 +3,8 @@
 [![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 
 
-[![Build Status](https://travis-ci.org/maxdeviant/greshunkel.svg?branch=master)](https://travis-ci.org/maxdeviant/greshunkel)
+[![Travis](https://img.shields.io/travis/maxdeviant/greshunkel.svg?style=flat-square)](https://travis-ci.org/maxdeviant/greshunkel)
+[![npm](https://img.shields.io/npm/v/greshunkel.svg?style=flat-square)](https://www.npmjs.com/package/greshunkel)
 
 Wally [requested](https://twitter.com/WAallLy/status/687059807518367744) this, so this is me delivering.
 
