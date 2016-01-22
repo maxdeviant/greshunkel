@@ -29,7 +29,7 @@ describe('xXx Variable Interpolation xXx', () => {
         });
     });
 
-    xit('should allow two variables to be neighbors', () => {
+    it('should allow two variables to be neighbors', () => {
         return greshunkel.compile('neighbors', {
             message: 'V O I D',
         }).then((html) => {
