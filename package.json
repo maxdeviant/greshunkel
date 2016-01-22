@@ -11,12 +11,12 @@
     "url": "git+https://github.com/maxdeviant/greshunkel.git"
   },
   "keywords": [
-    "void",
-    "infoforcefeed",
-    "merveilles",
-    "template",
+    "html",
     "templating",
-    "html"
+    "template",
+    "merveilles",
+    "void",
+    "infoforcefeed"
   ],
   "author": "Marshall Bowers <elliott.codes@gmail.com>",
   "license": "Unlicense",
